@@ -20,12 +20,13 @@ $ node app.js
 # To test the APIs 
 you can refer the utils/coding-platform.postman_collection.json
 import in your postman and do tests
-
-![Screenshot (2693)](https://github.com/aman-s-20/coding_platform/assets/88033748/6a7044ef-316e-4b7d-8e3d-e06d77f6e60a)
-![Screenshot (2694)](https://github.com/aman-s-20/coding_platform/assets/88033748/50545b6f-0cce-4320-9074-86a10ebc51b6)
-![Screenshot (2688)](https://github.com/aman-s-20/coding_platform/assets/88033748/96a53ddd-b89d-4dda-8bde-fe0c90c2273d)
-![Screenshot (2689)](https://github.com/aman-s-20/coding_platform/assets/88033748/1168eedf-4767-4877-93cb-0681d685bc5b)
-![Screenshot (2690)](https://github.com/aman-s-20/coding_platform/assets/88033748/60cc28a6-c8f3-4139-98a9-5447207bf3b9)
-![Screenshot (2691)](https://github.com/aman-s-20/coding_platform/assets/88033748/e3d14883-a69e-46fc-8f06-9433ecad8dc6)
-![Screenshot (2692)](https://github.com/aman-s-20/coding_platform/assets/88033748/40fb1f88-d6d9-4651-85b4-171427e425a4)
+```
+#
+![Screenshot (2688)](https://github.com/aman-s-20/coding_platform/assets/88033748/a8bdcf12-36ed-4f00-8661-aadab8b98c06)
+![Screenshot (2689)](https://github.com/aman-s-20/coding_platform/assets/88033748/56f2d3d8-1ef6-4b59-8bbb-ece717124756)
+![Screenshot (2690)](https://github.com/aman-s-20/coding_platform/assets/88033748/2c3f7e0c-1e1d-44b7-8d09-c7c57b77222d)
+![Screenshot (2691)](https://github.com/aman-s-20/coding_platform/assets/88033748/70633776-e543-467a-94a5-3302251efc26)
+![Screenshot (2692)](https://github.com/aman-s-20/coding_platform/assets/88033748/9b3db931-f71a-4783-b4d7-7f52a5d712d1)
+![Screenshot (2693)](https://github.com/aman-s-20/coding_platform/assets/88033748/194e2c35-40dc-426f-8766-46284c9a0a85)
+![Screenshot (2694)](https://github.com/aman-s-20/coding_platform/assets/88033748/5afeeb91-c70f-4f7e-a01b-8fd1ce8d1f5b)
 
