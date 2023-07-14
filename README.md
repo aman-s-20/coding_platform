@@ -22,7 +22,7 @@ you can refer the utils/coding-platform.postman_collection.json
 import in your postman and do tests
 
 ![Alt text](![Alt text](./public/Screenshot%20(2688).png)
-![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2689).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2689).png?raw=true)
 ![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2690).png)
 ![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2691).png)
 ![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2692).png)
