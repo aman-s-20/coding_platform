@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "7e5c5a9a-38ba-42a6-9764-8f6c02020313",
+		"name": "coding-platform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25274689"
+	},
+	"item": [
+		{
+			"name": "questions",
+			"item": [
+				{
+					"name": "create question",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjBmMzVmMWNhMmFjZGJhZWJlZTljNSIsImVtYWlsIjoic2luZ2hhbUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2ODkzMzkxNDcsImV4cCI6MTY4OTQyNTU0N30.KKdLAoPk3DsLGHeNYssS7Ksr52nj1MR34Q0GGx3lK2o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Example problem2\",\r\n    \"masterjudgeId\": 1001,\r\n    \"body\": \"question detail2\",\r\n    \"typeId\": 1,\r\n    \"interactive\": \"false\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/questions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete problem",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjBmMzVmMWNhMmFjZGJhZWJlZTljNSIsImVtYWlsIjoic2luZ2hhbUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2ODkzMzkxNDcsImV4cCI6MTY4OTQyNTU0N30.KKdLAoPk3DsLGHeNYssS7Ksr52nj1MR34Q0GGx3lK2o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/questions/117353",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"questions",
+								"117353"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit problem",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjBmMzVmMWNhMmFjZGJhZWJlZTljNSIsImVtYWlsIjoic2luZ2hhbUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2ODkzMzkxNDcsImV4cCI6MTY4OTQyNTU0N30.KKdLAoPk3DsLGHeNYssS7Ksr52nj1MR34Q0GGx3lK2o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Example problem3\",\r\n    \"masterjudgeId\": 1001,\r\n    \"body\": \"question 3\",\r\n    \"typeId\": 1,\r\n    \"interactive\": \"false\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/questions/117353",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"questions",
+								"117353"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "testcase",
+			"item": [
+				{
+					"name": "create testcase",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjBmMzVmMWNhMmFjZGJhZWJlZTljNSIsImVtYWlsIjoic2luZ2hhbUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2ODkzMzkxNDcsImV4cCI6MTY4OTQyNTU0N30.KKdLAoPk3DsLGHeNYssS7Ksr52nj1MR34Q0GGx3lK2o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"input\": \"input\",\r\n    \"output\": \"output\",\r\n    \"judgeId\": 1,\r\n    \"timeLimit\": 5\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/testCase/117354",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"testCase",
+								"117354"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "solution",
+			"item": [
+				{
+					"name": "submit solution",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YjBmMzVmMWNhMmFjZGJhZWJlZTljNSIsImVtYWlsIjoic2luZ2hhbUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2ODkzNTIyNTcsImV4cCI6MTY4OTQzODY1N30.ndcp8W9mNQNg3srGjr0ZkX_XgZAu2ST4vtYhQ4TbswA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"compilerId\": 44,\r\n    \"source\": \"#include <iostream> \\n using namespace std;\\n int main(){return 0;}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/solutions/117249",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"solutions",
+								"117249"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "authentication",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"aman\",\r\n    \"email\": \"singham@gmail.com\",\r\n    \"password\": \"abc123\",\r\n    \"role\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"singham@gmail.com\",\r\n    \"password\": \"abc123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
