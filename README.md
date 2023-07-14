@@ -21,10 +21,10 @@ $ node app.js
 you can refer the utils/coding-platform.postman_collection.json
 import in your postman and do tests
 
-![Alt text](https://raw.github.com/aman-s-20/coding_platform/blob/main/public/Screenshot%20(2688).png)
-![Alt text](https://github.com/aman-s-20/coding_platform/blob/main/public/Screenshot%20(2689).png)
-![Alt text](https://github.com/aman-s-20/coding_platform/blob/main/public/Screenshot%20(2690).png)
-![Alt text](https://github.com/aman-s-20/coding_platform/blob/main/public/Screenshot%20(2691).png)
-![Alt text](https://github.com/aman-s-20/coding_platform/blob/main/public/Screenshot%20(2692).png)
-![Alt text](https://github.com/aman-s-20/coding_platform/blob/main/public/Screenshot%20(2693).png)
-![Alt text](https://github.com/aman-s-20/coding_platform/blob/main/public/Screenshot%20(2694).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2688).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2689).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2690).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2691).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2692).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2693).png)
+![Alt text](https://raw.githubusercontent.com/aman-s-20/coding_platform/main/public/Screenshot%20(2694).png)
