@@ -1,6 +1,3 @@
-const { request } = require('express');
-const Question = require('../models/Question');
-const sphereEngineAPI = require('../services/sphereEngineAPI');
 const axios = require('axios');
 
 exports.submitSolution = async (req, res) => {
